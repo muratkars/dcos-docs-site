@@ -79,7 +79,6 @@ If you click on the Name of the local IP address, you will access information ab
 Figure 5 - Service Addresses detail page showing clients
 
 
-
 # Creating a VIP
 
 DC/OS can map traffic from a single Virtual IP (VIP) to multiple IP addresses and ports. 
