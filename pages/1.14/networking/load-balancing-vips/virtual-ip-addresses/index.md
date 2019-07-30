@@ -76,7 +76,7 @@ Follow these steps to view the VIP for Kafka.
 1.  Click **Networking** > **Networks** and select **dcos**.
 1.  Select your task to view details.
 
-    ![Service details](/1.14/img/vip-service-details.png)
+    ![Service details](/1.14/img/GUI-Networking-Service-Addresses-Detail.png)
 
     Figure 3. VIP service details
 
