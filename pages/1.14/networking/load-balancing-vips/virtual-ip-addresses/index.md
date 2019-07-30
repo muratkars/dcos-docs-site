@@ -59,7 +59,7 @@ VIPs follow this naming convention:
 
 You can click on the **Networking** tab to view networking details for your service.
 
-![VIP output](/1.14/img/vip-service-definition-output.png)
+![VIP output](/1.14/img/GUI-Networking-Networks-Detail.png)
  
 Figure 2. Service definition output
 
