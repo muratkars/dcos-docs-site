@@ -1,6 +1,7 @@
 FROM nginx:latest
 
 ARG nginx_dir
+ARG git_branch
 
 RUN mkdir -p /src/build
 
@@ -10,5 +11,13 @@ ADD "$nginx_dir" /etc/nginx/conf.d
 
 RUN service nginx restart
 
+COPY entrypoint.sh /usr/bin
+
+RUN echo $git_branch > /src/git_branch.txt
+
+ENTRYPOINT ["entrypoint.sh"]
+
 EXPOSE 80
 EXPOSE 443
+
+CMD ["nginx", "-g", "daemon off;"]
