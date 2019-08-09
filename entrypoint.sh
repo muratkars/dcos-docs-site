@@ -4,7 +4,7 @@ set -e
 GIT_BRANCH=$(cat /src/git_branch.txt)
 echo $GIT_BRANCH
 
-if [ "${GIT_BRANCH}" != "christina" ]; then echo "User-agent: * Disallow: /" > /src/build/robots.txt; fi
+if [ "${GIT_BRANCH}" != "master" ]; then echo "User-agent: * Disallow: /" > /src/build/robots.txt; fi
 
 ls /src/build
 
